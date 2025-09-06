@@ -15,6 +15,6 @@ public class Product {
     boolean active = true;
     private LocalDateTime createdAt;
 
-    
+
 
 }
