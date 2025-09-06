@@ -58,5 +58,5 @@ public class MonthlyTracker {
     public void setBuyCount(Long buyCount) {
         this.buyCount = buyCount;
     }
-    
+
 }
