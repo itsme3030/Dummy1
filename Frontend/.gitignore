@@ -1,0 +1,72 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js dependencies
+node_modules/
+
+# Build directories
+dist/
+dist-ssr/
+build/
+
+# Log files
+*.log
+
+# npm debug file
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files (Visual Studio Code)
+.vscode/*
+!.vscode/extensions.json
+
+# JetBrains IDE files
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Editor-specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+### React-specific ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+# Frontend dependencies and tools
+bower_components/
+
+# IDE files (Sublime Text, JetBrains, etc.)
+*.sublime*
+.idea/
+
+# Design files (Photoshop, Sketch, etc.)
+psd/
+thumb/
+sketch/
+
+# Other temporary files
+*.swp
+*.swo
+*.bak
+*.tmp

@@ -1,0 +1,11 @@
+# netlify.toml
+
+[build]
+  publish = "dist"            # Make sure this matches your build folder
+  command = "npm run build"   # Command to build your project
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true                 # Optional, to ensure all routes redirect to index.html

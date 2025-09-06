@@ -1,0 +1,12 @@
+/* index.css */
+
+/* Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar Styles */
+html {
+  scrollbar-color: #888 #f1f1f1; /* Thumb and track colors */
+  scrollbar-width: thin; /* Thin scrollbar */
+}
