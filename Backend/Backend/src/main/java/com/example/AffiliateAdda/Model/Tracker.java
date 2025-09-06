@@ -11,5 +11,5 @@ public class Tracker {
     Long buyCount = 0L;
     boolean active = true;
     private LocalDateTime createdAt;
-    
+
 }
