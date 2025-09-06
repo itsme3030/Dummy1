@@ -9,5 +9,5 @@ public class Review {
     private int rating;
     private String reviewText;
     private LocalDateTime reviewDate;
-    
+
 }
