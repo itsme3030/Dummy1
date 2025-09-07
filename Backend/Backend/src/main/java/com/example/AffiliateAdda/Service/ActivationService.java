@@ -74,7 +74,6 @@ public class ActivationService {
 
     }
 
-
     public void activateUser(Long userId, String reason) {
 
         User user = userRepository.findById(userId).orElseThrow(() -> new RuntimeException("User not found"));
@@ -95,6 +94,5 @@ public class ActivationService {
         for (Product product : products) {
             activateProduct(product.getProductId(), reason);
         }
-
     }
 }
