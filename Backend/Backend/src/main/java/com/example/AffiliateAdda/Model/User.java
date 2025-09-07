@@ -36,7 +36,7 @@ public class User {
     private List<Product> products;
 
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
-    private UserDetail userDetail;
+    private UserDetails userDetail;
 
     @OneToMany(mappedBy = "user")
     private List<Review> reviews;
@@ -135,11 +135,11 @@ public class User {
         this.products = products;
     }
 
-    public UserDetail getUserDetail() {
+    public UserDetails getUserDetail() {
         return userDetail;
     }
 
-    public void setUserDetail(UserDetail userDetail) {
+    public void setUserDetail(UserDetails userDetail) {
         this.userDetail = userDetail;
     }
 
