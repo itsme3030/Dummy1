@@ -6,7 +6,7 @@ public class LinkDto {
     public LinkDto() {
 
     }
-    
+
     public LinkDto(Long productId) {
         this.productId = productId;
     }
